@@ -1,0 +1,59 @@
+
+<!doctype html>
+<html>
+<head>
+  <title>Cheri is pretty rad. </title>
+  
+  <script src="//use.typekit.net/cuj7cty.js"></script>
+  <script >try{Typekit.load();}catch(e){}</script>
+  <script src="js/jquery-1.9.1.js"></script>  
+  <script src="js/farbtastic.js"></script>
+  <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+  
+  <link href="css/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+  <link href="css/schmancy.css" rel="stylesheet"/>
+  <link href="css/farbtastic.css" rel="stylesheet">
+
+  
+  <script>
+  $(function() {
+
+    $(".draggable").draggable();
+  });
+
+    
+  </script>
+  
+</head>
+<body>
+  <div id="sidebar">
+    <header>
+      <h1 class="funfont">Cheri Allen!</h1>
+    </header>
+
+    <nav class="funfont">
+      <ul class="navigation">
+        <li><a href="/" title="about">About</a></li>
+        <li><a href="cv" title="CV">CV</a></li>
+        <li><a href="portfolio" title="portfolio">Portfolio</a></li>
+        <!--<br />
+        <br />
+        <li><a href="partytime" title="partytime">Party Time</a></li>-->
+      </ul>
+    </nav>
+
+    <div class="connect">
+      <a href="http://lnkd.in/-qVXhD"><img src="../images/linkedin.png" title="linkedin" /></a>
+      <a href="https://github.com/cherimarie"><img src="../images/github_logo.png" title= "github" /></a>
+      <a href="https://twitter.com/cherimarie"><img src="../images/twitter_icon.png" title="twitter" /></a>
+    </div>
+  </div>
+
+<%= yield %>
+
+<div class="break">
+  <br />
+  </div>
+
+</body>
+</html>
