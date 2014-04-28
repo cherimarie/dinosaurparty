@@ -72,7 +72,7 @@
  		#textblock {width: 70%; margin: auto;}
  		#textblock_big {width: 90%; margin: auto;}
  		
-		.funfont {font-family: "Annie Use Your Telescope", monospace; fon-size: 1.4em;}
+		.funfont {font-family: "Lato", monospace; fon-size: 1.1em;}
 		.readable {font-family: "Lato", sans-serif; font-size: 1.1em;}
 		.underline {text-decoration: underline;}
 		.top {z-index: 99; position: relative;}
