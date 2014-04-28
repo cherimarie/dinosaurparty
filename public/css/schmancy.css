@@ -10,12 +10,18 @@
 		a:active {color:#5CB5E5;}
 		body {background-color: #E3D996;} 	
 		h1 {font-size: 1.75em;}	
-		ul {list-style-type: none;}
+		ul.star {list-style-image:url('../images/star.png');}
+		ul.naked {list-style-type: none;}
+		p.naked a {text-decoration: none; color: black;}
+		p.naked a:visited {color: black;}
+		p.naked a:hover {color:#5CB5E5;}
+
+		.text_shadow h2, h3, b {text-shadow: 2px 2px rgba(255, 255, 255, 0.4);}
 		
 		.big {font-size: 1.4em;}
 		.center {text-align: center;}  
 		.clear {clear: both;}
-		.indent {text-indent:50px;}
+		.indent {margin-left:50px;}
 		.pad_top {padding-top: 3px;}
 		.right {float: right;}
 		.rule_under {border-bottom: 1px solid #fff; padding-bottom: 3px;}
@@ -29,7 +35,7 @@
 						margin-top: 5%;
 						color:#099FAE;}
 		#sidebar ul.navigation {margin-top: 33%;
-								font-size: 1.2em;}
+								font-size: 1.4em;}
 		.connect {position: absolute;
 					bottom: 3%;}
 		.connect img {width: 20%;}
@@ -66,8 +72,8 @@
  		#textblock {width: 70%; margin: auto;}
  		#textblock_big {width: 90%; margin: auto;}
  		
-		.funfont {font-family: "ff-providence-sans-web-pro", monospace;}
-		.readable {font-family: "ff-dagny-web-pro", sans-serif;}
+		.funfont {font-family: "Annie Use Your Telescope", monospace; fon-size: 1.4em;}
+		.readable {font-family: "Lato", sans-serif; font-size: 1.1em;}
 		.underline {text-decoration: underline;}
 		.top {z-index: 99; position: relative;}
 		.bottom {z-index: 75; position: relative;}

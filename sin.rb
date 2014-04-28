@@ -1,4 +1,5 @@
 require 'sinatra'
+require "rdiscount"
 
 get '/' do
   erb :index
