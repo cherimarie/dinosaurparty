@@ -16,7 +16,8 @@
 		p.naked a:visited {color: black;}
 		p.naked a:hover {color:#5CB5E5;}
 
-		.text_shadow h2, h3, b {text-shadow: 2px 2px rgba(255, 255, 255, 0.4);}
+		.text_shadow h2, .text_shadow h3, .text_shadow b, .text_shadow h4 
+			{text-shadow: 2px 2px rgba(255, 255, 255, 0.4);}
 		
 		.big {font-size: 1.4em;}
 		.center {text-align: center;}  
@@ -35,7 +36,8 @@
 						margin-top: 5%;
 						color:#099FAE;}
 		#sidebar ul.navigation {margin-top: 33%;
-								font-size: 1.4em;}
+								font-size: 1.4em;
+								line-height: 2em;}
 		.connect {position: absolute;
 					bottom: 3%;}
 		.connect img {width: 20%;}

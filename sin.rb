@@ -4,7 +4,7 @@ get '/' do
   erb :index
 end 
 
-post '/colorpicker' do 
+get '/colorpicker' do 
   erb :colorpicker
 end 
 
@@ -18,6 +18,10 @@ end
 
 get '/portfolio' do 
   erb :portfolio 
+end 
+
+get '/slides' do 
+  erb :slides
 end 
 
 not_found do
