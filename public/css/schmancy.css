@@ -80,3 +80,5 @@
 		.top {z-index: 99; position: relative;}
 		.bottom {z-index: 75; position: relative;}
 		.draggable {position: relative; } 
+
+		.slides-content li {padding-bottom: 1em;}
