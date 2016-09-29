@@ -2,31 +2,31 @@ require 'sinatra'
 
 get '/' do
   erb :index
-end 
+end
 
-get '/colorpicker' do 
+get '/colorpicker' do
   erb :colorpicker
-end 
+end
 
-get '/cv' do 
+get '/cv' do
   erb :cv
-end 
+end
 
-get '/partytime' do 
+get '/partytime' do
   erb :partytime
-end 
+end
 
-get '/portfolio' do 
-  erb :portfolio 
-end 
+get '/portfolio' do
+  erb :portfolio
+end
 
-get '/slides' do 
+get '/slides' do
   erb :slides
-end 
+end
 
 not_found do
   status 404
-  'not found'
+  erb :not_found
 end
 
 helpers do
