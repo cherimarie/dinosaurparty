@@ -8,10 +8,6 @@ get '/colorpicker' do
   erb :colorpicker
 end
 
-get '/cv' do
-  erb :cv
-end
-
 get '/partytime' do
   erb :partytime
 end
